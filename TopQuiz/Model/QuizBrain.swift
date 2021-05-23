@@ -82,8 +82,6 @@ let quiz = [
         
         if(score < 5){
             return "Extrovert"
-        }else if(score == 5){
-            return "Ambivert"
         }else{
             //Between 6 to 10
             return "Introvert"
