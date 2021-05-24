@@ -16,7 +16,7 @@ class ResultsViewController: UIViewController {
       
         
         
-        finalScoreLabel.text = "You are an \"\(finalAnswer)\" personality."  
+        finalScoreLabel.text = "You are an \"\(finalAnswer)"
         
         setupUI()
         

@@ -81,14 +81,16 @@ let quiz = [
     func getFinalAssessment() -> String {
         
         if(score < 5){
-            return "Extrovert"
+            return "You are an extrovert. You tend to be quite outgoing and talkative. You enjoy spending time with other people, feel energized in social situations—extroverts like being the center of attention. People might describe you as friendly and outgoing. You have no problem making new friends. Spending time with others makes you feel energized and inspired."
         }else{
             //Between 6 to 10
-            return "Introvert"
+            return "You are an introvert. You tend to enjoy solitude and spending time alone. You prefer not to be the center of attention. People might describe you as quiet. You like to spend time with a small group of close friends And family. You get drained after spending a lot of time around people whom you don't know."
         }
     }
     
 }
+
+
 
 
 
