@@ -17,7 +17,7 @@
                BlueprintIdentifier = "CA51F86A26088FE500B717AB"
                BuildableName = "PersonalityTest.app"
                BlueprintName = "PersonalityTest"
-               ReferencedContainer = "container:PersonalityTest.xcodeproj">
+               ReferencedContainer = "container:PersonalityQuiz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "CA51F86A26088FE500B717AB"
             BuildableName = "PersonalityTest.app"
             BlueprintName = "PersonalityTest"
-            ReferencedContainer = "container:PersonalityTest.xcodeproj">
+            ReferencedContainer = "container:PersonalityQuiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "CA51F86A26088FE500B717AB"
             BuildableName = "PersonalityTest.app"
             BlueprintName = "PersonalityTest"
-            ReferencedContainer = "container:PersonalityTest.xcodeproj">
+            ReferencedContainer = "container:PersonalityQuiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

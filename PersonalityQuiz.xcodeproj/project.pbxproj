@@ -48,7 +48,7 @@
 		CA51F86226088FE500B717AB = {
 			isa = PBXGroup;
 			children = (
-				CA51F86D26088FE500B717AB /* TopQuiz */,
+				CA51F86D26088FE500B717AB /* PersonalityQuiz */,
 				CA51F86C26088FE500B717AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA51F86D26088FE500B717AB /* TopQuiz */ = {
+		CA51F86D26088FE500B717AB /* PersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
 				CA51F86E26088FE500B717AB /* AppDelegate.swift */,
@@ -73,7 +73,7 @@
 				CA51F87726088FE500B717AB /* Assets.xcassets */,
 				CA51F87C26088FE500B717AB /* Info.plist */,
 			);
-			path = TopQuiz;
+			path = PersonalityQuiz;
 			sourceTree = "<group>";
 		};
 		CA7686D42608D45E0088E35C /* Controller */ = {
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA51F86626088FE500B717AB /* Build configuration list for PBXProject "PersonalityTest" */;
+			buildConfigurationList = CA51F86626088FE500B717AB /* Build configuration list for PBXProject "PersonalityQuiz" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -362,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA51F86626088FE500B717AB /* Build configuration list for PBXProject "PersonalityTest" */ = {
+		CA51F86626088FE500B717AB /* Build configuration list for PBXProject "PersonalityQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA51F87D26088FE500B717AB /* Debug */,
