@@ -11,34 +11,20 @@ class HomeScreenViewController: UIViewController {
     
     
     @IBOutlet weak var startButton: UIButton!
-
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-      setupUI()
+        setupUI()
         
     }
     func setupUI () {
-        
-        
         self.startButton.layer.cornerRadius = self.startButton.frame.height/2
-        
-    
-        
-        
     }
     
-     
     @IBAction func startButtonPressed(_ sender: UIButton) {
-        
-        
     }
-    
-    
-   
-
 }
 
 

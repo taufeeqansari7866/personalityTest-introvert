@@ -9,15 +9,10 @@ import Foundation
 
 struct QuizBrain {
     
-   
-    
     var result = false
-    
     var questionNumber = 0
     var score = 0
     
-    
-
 let quiz = [
     Question(q: "You are more productive when you are in ?", a: ["In cafe", "In quiet room", "Both of the above"], correctAnswer: "In quiet room"),
     Question(q: " In your free Time on the weekend you would prefer ?", a: ["Partying with unknown people", "Chatting with best friend", "Both of the above"], correctAnswer: "Chatting with best friend"),
@@ -31,9 +26,6 @@ let quiz = [
     Question(q: "You’re more likely to recharge your batteries by ?", a: ["Going out with group of friends ", "Getting some alone time", "Both of the above"], correctAnswer: "Getting some alone time")
 ]
     
-    
-    
-
     func getQuestionText() -> String {
         return quiz[questionNumber].text
     }
@@ -45,7 +37,6 @@ let quiz = [
     
     func getProgress() -> Float {
         return Float(questionNumber + 1) / Float(quiz.count)
-        
     }
     
     mutating func getScore() -> Int {
@@ -73,13 +64,10 @@ let quiz = [
     }
     
     func getResult() -> Bool {
-        
         return result
-        
     }
     
     func getFinalAssessment() -> String {
-        
         if(score < 5){
             return "You are an extrovert. You tend to be quite outgoing and talkative. You enjoy spending time with other people, feel energized in social situations—extroverts like being the center of attention. People might describe you as friendly and outgoing. You have no problem making new friends. Spending time with others makes you feel energized and inspired."
         }else{
@@ -87,7 +75,6 @@ let quiz = [
             return "You are an introvert. You tend to enjoy solitude and spending time alone. You prefer not to be the center of attention. People might describe you as quiet. You like to spend time with a small group of close friends And family. You get drained after spending a lot of time around people whom you don't know."
         }
     }
-    
 }
 
 
