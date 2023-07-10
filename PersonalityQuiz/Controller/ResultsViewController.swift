@@ -1,7 +1,4 @@
-
-
 import UIKit
-
 
 class ResultsViewController: UIViewController {
     
@@ -14,18 +11,13 @@ class ResultsViewController: UIViewController {
         super.viewDidLoad()
         
         finalScoreLabel.text = "You are an \"\(finalAnswer)"
-        
         setupUI()
-        
         screenShotMethod()
-        
-        // Do any additional setup after loading the view.
     }
     
     func setupUI () {
         self.restartPressed.layer.cornerRadius = self.restartPressed.frame.height/2
         self.sharePressed.layer.cornerRadius = self.sharePressed.frame.height/2
-        
     }
     
     func screenShotMethod() {
@@ -39,8 +31,7 @@ class ResultsViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func Share(_ sender: UIButton){
-        
+    @IBAction func Share(_ sender: UIButton) {
         UIGraphicsBeginImageContext(view.frame.size)
         view.layer.render(in: UIGraphicsGetCurrentContext()!)
         let image = UIGraphicsGetImageFromCurrentImageContext()
