@@ -6,10 +6,8 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var finalScoreLabel: UILabel!
     @IBOutlet weak var restartPressed: UIButton!
     @IBOutlet weak var sharePressed: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         finalScoreLabel.text = "You are an \"\(finalAnswer)"
         setupUI()
         screenShotMethod()

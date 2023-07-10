@@ -8,7 +8,6 @@
 import Foundation
 
 struct Question {
-    
     let text: String
     //Multiple choice questions have multiple answers, an Array of Strings would work for our quiz data.
     let answers: [String]
