@@ -58,4 +58,5 @@ extension QuizViewController {
         let destinationVC = segue.destination as! ResultsViewController
         destinationVC.finalAnswer = quizBrain.getFinalAssessment()
     }
+    // going to next screen using type casting
 }
